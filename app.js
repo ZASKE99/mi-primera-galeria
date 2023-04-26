@@ -9,7 +9,7 @@ let close = document.querySelector('span')
 
 images.forEach((img, index) => {
     img.addEventListener('click', () => {
-        openModal(`images/img${index}.jpg`)
+        openModal(`./images/img${index}.jpg`)
     })
 })
 
